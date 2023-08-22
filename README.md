@@ -75,8 +75,8 @@ gamemoderun TheCommandYouWantToRun
 
 ## Optional optimisation I've made :
 
-[MiMillieuh/BatteryM](https://github.com/MiMillieuh/BatteryM) "The most stupid and efficent battery management ever made for power-profiles-daemon"
+[MiMillieuh/BatteryM](https://github.com/MiMillieuh/BatteryM) : "The most stupid and efficent battery management ever made for power-profiles-daemon"
 
-[MiMillieuh/AMDcustomTDPlinux](https://github.com/MiMillieuh/AMDcustomTDPlinux) "a custom TDP service for my needs that can be adjusted"
+[MiMillieuh/AMDcustomTDPlinux](https://github.com/MiMillieuh/AMDcustomTDPlinux) : "a custom TDP service for my needs that can be adjusted"
 
 ## And you should be good to go !
