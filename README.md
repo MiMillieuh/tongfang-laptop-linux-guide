@@ -55,4 +55,20 @@ You can trick the crappy nvidia driver to allow the gpu to use more power with a
 sudo wget https://raw.githubusercontent.com/MiMillieuh/tongfang-laptop-linux-guide/main/tongfang-nvidia.service -O /etc/systemd/system/tongfang-nvidia.service ; sudo systemctl enable --now tongfang-nvidia.service
 ```
 
+## 6 : Congigure your games on Lutris or Steam
+
+On steam you can add this in the launch options :
+
+```
+gamemoderun %command%
+```
+
+And on Lutris you can just tick the box to use gamemode
+
+if you want to run any applications with these settings, just run it that way :
+
+```
+gamemoderun TheCommandYouWantToRun
+```
+
 ## And you should be good to go !
