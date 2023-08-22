@@ -40,3 +40,19 @@ start=tongfang-control -fl loud; tongfang-control -fm boost
 end=powerprofilesctl set balanced
 end=tongfang-control -fl quiet; tongfang-control -fm intelligent
 ```
+
+## 5 : For nvidia users
+
+We want to enable nvidia-powerd if not already done : 
+
+```
+sudo systemctl enable --now nvidia-powerd
+```
+
+You can trick the crappy nvidia driver to allow the gpu to use more power with a custom service. you can install it with this command : 
+
+```
+sudo wget https://raw.githubusercontent.com/MiMillieuh/tongfang-laptop-linux-guide/main/tongfang-nvidia.service -O /etc/systemd/system/tongfang-nvidia.service ; sudo systemctl enable --now tongfang-nvidia.service
+```
+
+## And you should be good to go !
