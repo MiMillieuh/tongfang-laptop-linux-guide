@@ -16,8 +16,8 @@ if you're using ublue or fedora I've made a package with dkms or a way to instal
 We don't want to enter our password each time we launch a game, so just edit sudoers with `visudo` and go to the end of the file and add : 
 
 ```
-mimillie ALL=(ALL) NOPASSWD: /usr/bin/tee /proc/acpi/call
-mimillie ALL=(ALL) NOPASSWD: /usr/bin/cat /proc/acpi/call
+yourusername ALL=(ALL) NOPASSWD: /usr/bin/tee /proc/acpi/call
+yourusername ALL=(ALL) NOPASSWD: /usr/bin/cat /proc/acpi/call
 ```
 
 ## 3 : Install tongfang-control
