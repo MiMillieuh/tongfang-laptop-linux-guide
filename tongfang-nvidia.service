@@ -1,0 +1,9 @@
+[Unit]
+After=nvidia-powerd.service
+Description=nvidia wattage tongfang
+
+[Service]
+ExecStart=/bin/sh -c "/var/usrlocal/bin/tongfang-control -fl loud ; sleep 5 ; /var/usrlocal/bin/tongfang-control -fl quiet"
+
+[Install]
+WantedBy=multi-user.target
