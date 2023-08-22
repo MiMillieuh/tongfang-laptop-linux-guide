@@ -55,6 +55,8 @@ You can trick the crappy nvidia driver to allow the gpu to use more power with a
 sudo wget https://raw.githubusercontent.com/MiMillieuh/tongfang-laptop-linux-guide/main/tongfang-nvidia.service -O /etc/systemd/system/tongfang-nvidia.service ; sudo systemctl enable --now tongfang-nvidia.service
 ```
 
+If you have tearing, you can follow my guide in this reop : [MiMillieuh/Nvidia-Stop-Tearing-Guide](https://github.com/MiMillieuh/Nvidia-Stop-Tearing-Guide) that might help you with this issue (not a 100% succes rate. Thanks nvidia for your crappy drivers...)
+
 ## 6 : Congigure your games on Lutris or Steam
 
 On steam you can add this in the launch options :
